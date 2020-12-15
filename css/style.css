@@ -35,3 +35,46 @@ a{
  img{
      width: 100%;
   }
+
+  .navbar{
+      background-color: #047aed;
+      color: #ffffff;
+      height: 70px;
+  }
+
+  .navbar ul{
+      /* menu will get aline in horizontal */
+      display: flex;
+  }
+
+  .navbar a{
+      color: #ffffff;
+      padding: 10px;
+      margin: 0 5px;
+  }
+
+  .navbar a:hover{
+      border-bottom: 2px solid #fff;
+  }
+
+  .navbar .flex{
+    justify-content: space-between;
+  }
+
+  .container{
+      max-width: 1100px;
+      margin: 0 auto;
+      /* to fix the space between logo and the container which is blue at the top */
+      overflow: auto;
+      padding: 0 40px;
+
+  }
+
+  /* adding flexbox to put the elements of menu in line */
+
+  .flex{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+  }
