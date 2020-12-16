@@ -3,7 +3,10 @@
 
 /* variables */
 :root{
-    --primary-color: #4e8d7c;
+    --primary-color: #047ade;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
 }
 
 /* resetting the default styles *is the universal selector */
