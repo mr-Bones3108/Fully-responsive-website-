@@ -129,6 +129,11 @@ a{
       -ms-transform: skewY(-3deg);
   }
 
+  /* stats */
+  .stats{
+      padding-top: 100px;
+  }
+
   /* utilities styling */
   .container{
       max-width: 1100px;
