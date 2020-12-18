@@ -54,6 +54,11 @@ a{
 
   }
 
+  .hidden{
+      visibility:hidden;
+      height: 0;
+  }
+
   /* navbar styling */
   .navbar{
       background-color: var(--primary-color);
