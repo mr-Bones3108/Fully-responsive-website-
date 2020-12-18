@@ -102,18 +102,14 @@ color: #fff;
 }
 
 /* use of grid */
-.grid{
-  display: grid;
-  /* how wide we want each column can be define as following */
-  grid-template-columns: 300px 200px;
-  /* division of column */
-  grid-template-columns: repeat(2, 1fr);
-  /* space between column */
-  gap:20px;
-  justify-content:center;
-  align-items: center;
-  height:100%;
-}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
 
 .grid-3{
   grid-template-columns: repeat(3, 1fr);
